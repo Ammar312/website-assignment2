@@ -1,0 +1,287 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    height: 70px;
+    border-bottom: 2px solid whitesmoke;
+    box-shadow: 0px 2px whitesmoke;
+    background-color: white;
+    overflow: hidden;
+    z-index: 1050px;
+}
+
+.foodpandalogo {
+     width: 200px;
+    height: 80px; 
+    
+   
+}
+
+.rightSideMenu {
+    display: flex;
+}
+
+.loginbutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 103px;
+    height: 69px;
+    border-left: 3px solid rgba(245, 245, 245, 0.87);
+    cursor: pointer;
+}
+
+.iconbackground {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(243, 9, 153);
+    margin-left: 10px;
+    border-radius: 50%;
+    width: 26px;
+    height: 26px;
+}
+
+.loginimg {
+    width: 25px;
+    height: 25px;
+}
+
+.login {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin-left: 6px;
+cursor: pointer;
+}
+
+
+.cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 6px;
+    width: 68px;
+    height: 69px;
+    border-left: 3px solid whitesmoke;
+    cursor: pointer;
+}
+
+.afterheader {
+    display: flex;
+    justify-content: space-between;
+    height: 532px;
+    overflow: hidden;
+}
+
+.backpicture {
+    overflow-x: hidden;
+    position: absolute;
+    z-index: -3;
+    margin-left: 68%;
+}
+
+.upperContent {
+    /* margin-top: 9.4em;
+   padding-left: 80px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 80px;
+    padding-top: 40px;
+
+    
+}
+
+.H1 p {
+    color: #585757;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.6rem;
+    font-weight: lighter;
+}
+
+.addressbar {
+    display: flex;
+    align-items: center;
+    width: 950px;
+    height: 100px;
+    border: 3px solid rgb(238, 236, 236);
+    margin-top: 75px;
+    box-shadow: 0 2px 28px 0 rgb(0 0 0 / 12%);
+    padding: 15px 15px;
+   
+}
+
+.enteraddress fieldset {
+    display: flex;
+    width: 540px;
+    height: 74px;
+    border: 1px solid rgb(216, 213, 213);
+    border-radius: 10px;
+    padding-left: 20px;
+}
+
+.enteraddress fieldset legend {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+
+}
+
+.enteraddress fieldset input {
+    border: 0px white;
+    width: 480px;
+    height: 30px;
+}
+
+
+.locate {
+    margin-right: 15px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.locate img {
+    width: 17px;
+    height: 17px;
+   
+}
+
+.deliveryBtn {
+    margin-left: 10px;
+}
+
+.deliveryBtn button {
+    width: 162px;
+    height: 62px;
+    color: #ffffff;
+    background-color: #e21b70;
+    border: 0px solid #e21b70;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.4s ease-in;
+}
+
+.deliveryBtn button:hover {
+    color: #e21b70;
+    background-color: #fdf2f7;
+    box-shadow: 0px 3px whitesmoke;
+    border: 1px solid #fdf2f7;
+}
+
+.or {
+    margin-left: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.partnersection{
+    max-width: 1250px;
+    height: 850px;
+    overflow: hidden;
+
+}
+
+.partner h1 {
+    width: 345px;
+    height: 109px;
+    color: rgb(242, 242, 242);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 170px;
+    margin-left: 80px;
+    position: relative;
+    z-index: -3;
+}
+
+.partner {
+    margin-top: 30px;
+}
+
+.tagline {
+    margin-left: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6em;
+    color: rgb(112, 110, 110);
+}
+
+.prepareimg {
+    margin-top: 17px;
+    overflow-x: hidden;
+    position: absolute;
+    z-index: -1;
+}
+.prepareimg img{
+    width: 100%;
+    height: auto;
+}
+
+
+.partnerbox {
+    width: 616px;
+    height: 385px;
+    background-color: white;
+    box-shadow: 0 2px 28px 0 rgb(0 0 0 / 12%);
+   margin-top: 210px;
+    /* z-index: -1; */
+    margin-left: 85px;
+    padding: 0px 40px;
+}
+
+.content {
+    padding-top: 40px;
+    font-family: 'Open Sans', sans-serif;
+    color: #9b9595;
+}
+
+.contentpara1 {
+    font-size: x-large;
+    color: #0e0e0e;
+}
+
+.contentpara2 {
+    line-height: 1.5em;
+    margin-top: 30px;
+}
+
+.contentbtn button {
+    width: 552px;
+    height: 48px;
+    margin-top: 39px;
+    color: #ffffff;
+    background-color: #e21b70;
+    border: 0px solid #e21b70;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.4s ease-in;
+}
+
+.contentbtn button:hover {
+    color: #e21b70;
+    background-color: #fdf2f7;
+    box-shadow: 0px 3px whitesmoke;
+    border: 1px solid #fdf2f7;
+}
+
+.cities {
+    margin-top: 30px;
+}
+
+.cities h1 {
+    width: 345px;
+    height: 109px;
+    color: rgb(242, 242, 242);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 170px;
+    margin-left: 80px;
+    /* position: absolute;  */
+    z-index: -1;
+}
+
